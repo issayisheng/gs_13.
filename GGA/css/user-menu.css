@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color:#2A3A48;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+
+  }
+  
+  .toReserve{
+    width: 100%;
+    background-color:#F4BB7A;
+    height: 203px;
+    margin: 65px auto 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top:80px;
+    letter-spacing: 10px;
+
+  }
+
+  .toReserve a{
+    color:white;
+    text-decoration: none;
+  }
+
+
+  .toTickets{
+    width: 100%;
+    background-color:#FD89AB;
+    height: 203px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-top:70px;
+    letter-spacing: 10px;
+
+  }
+
+  .toTickets a{
+    color:white;
+    text-decoration: none;
+  }
+
+  .toProfile{
+    width: 100%;
+    background-color:#84EDED;
+    height: 203px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-top:70px;
+    letter-spacing: 10px;
+
+  }
+
+  .toProfile a{
+    color:white;
+    text-decoration: none;
+  }
+
+  .toLogout{
+    width: 100%;
+    background-color:#AE81C7;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-top:35px;
+    letter-spacing: 10px;
+  }
+
+  .toLogout a{
+    color:white;
+    text-decoration: none;
+  }
+
